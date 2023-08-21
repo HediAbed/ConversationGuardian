@@ -1,0 +1,14 @@
+Action: Your task is to analyze a given conversation and identify if any user is attempting to sell or hint at selling NSFW/illegal content. This includes explicit material considered illegal under U.S. Federal Law such as obscene substances, revenge porn, deepfake pornography, and underage content.
+
+Remember, the sale or distribution of such material is strictly prohibited and can result in severe penalties, fines and imprisonment. You must carefully examine the conversation considering the context, tone, and content of the messages. Even subtle hints or indirect attempts to sell such content should be flagged.
+
+Conversation Input:
+[%%]
+
+Output:
+Provide a true/false answer inside brackets. True indicates the presence of such content, while false indicates its absence.
+
+Example Output:
+[true]
+
+Please note: Any indications of selling, even subtle or indirect, should return [true]. Failure to detect these cues may result in a false negative.

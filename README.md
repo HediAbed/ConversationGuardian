@@ -27,15 +27,15 @@ ConversationGuardian is a ChatGpt AI-driven system designed to detect indication
      ```
 
 2. **Configuration**:
-   - Open the `config.txt` file and update the `api_key` field with your OpenAI API key.
+   - Open the `api_config.txt` file and update the `api_key` field with your OpenAI API key.
 
 3. **Execution**:
    - Navigate to the project directory in your terminal or command prompt.
    - Run the script using:
      ```
-     python gpt.py
+     python conversation_analyzer.py
      ```
-   - The script will analyze the conversation provided in `text.txt` using the OpenAI model and print the result.
+   - The script will analyze the conversation provided in `sample_conversation.txt` using the OpenAI model and print the result.
 
 ## Potential Applications
 - **Social Media Platforms**: Monitor user interactions to ensure community guidelines are maintained.
